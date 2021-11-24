@@ -1,0 +1,52 @@
+Descargar e instalar Node.js:   https://nodejs.org/es/download/
+
+Ejecutar desde CMD en administrador: npm install -g npm@latest
+
+Ejecutar desde CMD en administrador: npm cache clean --force
+
+Ejecutar desde CMD en administrador: npm install -g create-react-app
+
+Ejecutar desde CMD en administrador: create-react-app NombreDeMiProyecto	---instalacion y configuracion de node
+
+
+CD C:\Users\Harold\Desktop\Nuevo Proyecto Guia	---se define la carpeta a utilizar
+
+CD Node		---se define la carpeta a utilizar
+
+npm start	---inicializa el proyecto en el directorio
+
+npm -v	---ver version de npm
+
+npm init	---configurar api rest
+
+npm install express	---complemento usado para crear el api rest
+
+node index.js	---Se usa para poder levantar los servicios
+
+En caso de que no funcione cambiar el puerto 80 al 8080 o al puerto 4430
+
+
+PARA PROBAR EN CHROME
+
+http://localhost:4430/         ---Obtiene el mensaje Node JS api
+
+http://localhost:4430/api/estudiantes     ---Obtiene a los estudiantes
+
+http://localhost:4430/api/estudiantes/1    ---Obtiene a los estudiantes por el id
+
+
+PARA PROBAR EN POSTMAN (Descargar Postman)
+
+{
+    "Id": 1,
+    "Nombre": "Ana",
+    "Edad": 24,
+    "enroll": true
+}
+
+
+
+
+
+
+
